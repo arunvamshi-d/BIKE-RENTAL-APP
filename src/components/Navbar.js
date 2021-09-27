@@ -6,7 +6,7 @@ function Navbar() {
       <nav className="navbar navbar-expand-lg shadow-lg p-3 mb-5 bg-white rounded">
       <i class="fas fa-pizza"></i>
         <a className="navbar-brand" href="#">
-          PIZZA-STORE
+          BIKES 24
         </a>
         <button
           className="navbar-toggler"
@@ -28,7 +28,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Cart
+                BOOKING DETAILS
               </a>
             </li>
            

@@ -18,7 +18,7 @@ export default function Pizza({pizza}) {
 
             <div className="flex-cointainer">
                 <div className='w-100 m-1'>
-                    <p>Varients</p>
+                    <p>TIME IN HRS(Min 6hrs)</p>
                     <select className='form-control'value={Varients}onChange={(e)=>{setvarients(e.target.value)}}>
                         {pizza.varients.map(varients=>{
                             return <option value={varients}>{varients}</option>
@@ -26,11 +26,11 @@ export default function Pizza({pizza}) {
                     </select>
                 </div>
                 <div className='w-100 m-1'>
-                    <p>Quantity</p>
+                    <p>Distance IN KMS</p>
                     <select className='form-control'value={Quantity} onChange={(e)=>{setquantity(e.target.value)}}>
-                      {[...Array(10).keys()].map((x,i)=>{
+                      {[...Array(50).keys()].map((x,i)=>{
 
-                          return <option value={i+1}>{i+1}</option>
+                          return <option value={i+20}>{i+20}</option>
                       })}
                     </select>
                 </div>
@@ -42,14 +42,12 @@ export default function Pizza({pizza}) {
                     <h1 className='mt-1'>Price:{pizza.prices[0][Varients]*Quantity} Rs/-</h1>
                 </div>
                 <div className='m-1 w=100'>
-                    <button className="btn">ADD TO CART </button>
+                    <button className="btn">BOOK YOUR RIDE </button>
                 </div>
 
             </div>
             <Modal show={show}>
-  <Modal.Header closeButton>
-    <Modal.Title>{pizza.name}</Modal.Title>
-  </Modal.Header>
+    
 
   <Modal.Body>
     <img src={pizza.image} className="img-fluid" style={{height:'400px'}}/>

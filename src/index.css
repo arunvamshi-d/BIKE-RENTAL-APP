@@ -9,12 +9,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Montserrat', sans-serif !important;
-  background-image: linear-gradient(to right top, #3f0526, #4b173e, #542958, #583c73, #56508d, #465c9a, #2f69a4, #0074aa, #0078a1, #007b95, #007d86, #0f7d76) !important;
+  background-image: #C5FCEE
 }
 
 
 .shadow-lg {
-  background-image: linear-gradient(to right top, #7ef286, #92f17d, #a3f075, #b4ee6e, #c3ec68);
+  background-image: #3a3431
 }
 
 code {
@@ -23,25 +23,25 @@ code {
 }
 
 .nav-link{
-  color:black !important;
+  color:rgb(149, 17, 226) !important;
 }
 
 .navbar-brand {
-  color:black !important;
+  color:rgb(207, 26, 26) !important;
 }
 
 h1{
-  color:solid black;
+  color:solid rgb(228, 19, 123);
   font-size: 20px !important;
 }
 .flex-cointainer{
   display:flex !important;
 }
 .btn{
-  background-color: red !important;
+  background-color: rgb(245, 77, 77) !important;
 }
 .select{
   box-shadow: none !important;
-  border-color: black;
+  border-color: rgb(216, 12, 12);
 }
 
