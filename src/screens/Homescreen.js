@@ -1,15 +1,15 @@
 import React from 'react'
-import pizzas from '../pizzasdata'
-import Pizza from '../components/Pizza'
+import bikes from '../bikesdata'
+import bike from '../components/Bike'
 
 export default function Homescreen() {
     return (
         <div>
         <div className="row">
-          {pizzas.map(pizza=>{
+          {bikes.map(bike=>{
               return <div className="col-md-4 p-3">
                   <div>
-                      <Pizza pizza={pizza}/>
+                      <bikes bike={bike}/>
               </div>
               </div>
             
