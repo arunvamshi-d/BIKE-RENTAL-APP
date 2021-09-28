@@ -13,7 +13,7 @@ export default function Pizza({pizza}) {
         <div style={{margin:'70px'}}className="shadow-lg p-3 mb-5 bg-white rounded">
             <div onClick={handleShow}>
             <h1>{pizza.name}</h1>
-            <img src={pizza.image} className="img-fluid" style={{heigth:'200px',width:'200px'}}/>
+            <img src={pizza.image} className="img-fluid" style={{heigth:'400px',width:'400px'}}/>
             </div>
 
             <div className="flex-cointainer">
