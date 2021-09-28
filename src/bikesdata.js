@@ -1,4 +1,4 @@
-const pizzas=[
+const bikes=[
     {
 
         name: "KTM RC",
@@ -114,4 +114,4 @@ const pizzas=[
         image:  "https://images.financialexpress.com/2020/02/2020-bs6-tvs-apache-rr310-review-racing-red-1.jpg",
         description: "Power and Torque  and Carrying capacity is high."
     }]
-export default pizzas;
+export default bikes;
